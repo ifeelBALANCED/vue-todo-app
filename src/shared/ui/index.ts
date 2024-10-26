@@ -1,3 +1,5 @@
 import TaskInput from './TaskInput.vue'
+import TaskFilter from './TaskFilter.vue'
+import TaskItem from './TaskItem.vue'
 
-export { TaskInput }
+export { TaskInput, TaskFilter, TaskItem }

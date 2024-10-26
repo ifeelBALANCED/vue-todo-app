@@ -21,7 +21,7 @@ export const useTasksModel = defineStore('tasks', () => {
     })
 
     const addTask = (title: string) => {
-        tasks.value.push({ id: nextId.value++, title, completed: false })
+        tasks.value = [...tasks.value, { id: nextId.value++, title, completed: false }]
     }
 
     const toggleTask = (id: number) => {
