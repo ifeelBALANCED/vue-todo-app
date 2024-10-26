@@ -1,22 +1,24 @@
-## OS
 .DS_Store
 .idea
 .editorconfig
 pnpm-lock.yaml
 .npmrc
 
-# Ignored suffix
-*.log
-*.md
-*.svg
-*.png
-*.ico
-*ignore
+.tmp
+.cache/
+coverage/
+.nyc_output/
+**/.yarn/**
+**/.pnp.*
+/dist*/
+node_modules/
+**/node_modules/
 
 ## Local
 .husky
+.local
 
-## Built-files
-.cache
-dist
-node_modules
+**/*.svg
+**/*.sh
+components.d.ts
+auto-imports.d.ts

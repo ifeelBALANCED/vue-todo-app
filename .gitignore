@@ -7,22 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Node modules
 node_modules
-
-# Build output
+.DS_Store
 dist
 dist-ssr
 coverage
+*.local
+components.d.ts
 
-# MacOS
-.DS_Store
-
-# Environment variable files
-.env
-.env.*
-
-# Cypress directories
 /cypress/videos/
 /cypress/screenshots/
 
@@ -35,9 +27,3 @@ coverage
 *.njsproj
 *.sln
 *.sw?
-*.tsbuildinfo
-.eslintcache
-
-# Test results
-test-results/
-playwright-report/
